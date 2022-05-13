@@ -1,0 +1,59 @@
+body {
+  background-color: peru;
+}
+.active {
+  background-color: pink;
+}
+.container {
+  width: 50%;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.name-input,
+.pass-input {
+  display: block;
+  width: 60%;
+  margin: 1rem auto;
+  border: 2px solid lightgray;
+  &:focus {
+    outline: none;
+    border: 2px solid rgb(60, 59, 59);
+  }
+  padding: 0.5rem;
+  &::placeholder {
+    color: rgb(185, 180, 180);
+  }
+}
+.btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid gray;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+.list-holder {
+  width: 60%;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  font-size: 1.2rem;
+  border-bottom: 2px solid lightgrey;
+}
+.edit {
+  background-color: green;
+}
+.delete {
+  background-color: tomato;
+}
+
+.submit {
+  padding: 0.5rem 1.5rem;
+  background-color: aquamarine;
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+h1 {
+  color: rgb(10, 79, 158);
+}
